@@ -1,7 +1,7 @@
 import { StrengthProgram } from "@/types/events";
 
 export async function getIntermediateWorkout(): Promise<StrengthProgram> {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/intermediate`, {
+  const res = await fetch(`/api/intermediate`, {
     cache: "no-store",
   });
 
@@ -13,7 +13,7 @@ export async function getIntermediateWorkout(): Promise<StrengthProgram> {
 }
 
 export async function getStrengthWorkout(): Promise<StrengthProgram> {
-  const res = await fetch(`${process.env.NEXT_PUBLIC_URL}/api/strength`, {
+  const res = await fetch(`/api/strength`, {
     cache: "no-store",
   });
 
