@@ -1,0 +1,94 @@
+{
+  "programId": "strength-6day-split",
+  "programName": "6 Day Strength Split",
+  "difficulty": "Strength",
+  "daysPerWeek": 6,
+  "restDay": "Sunday",
+  "cycle": "weekly",
+  "workouts": [
+    {
+      "dayIndex": 1,
+      "dayName": "Monday",
+      "focus": "Push",
+      "title": "Chest + Shoulders + Triceps",
+      "durationMinutes": 45,
+      "exercises": [
+        { "name": "Barbell Bench Press", "sets": 4, "reps": "6-8", "restSeconds": 120 },
+        { "name": "Incline Dumbbell Press", "sets": 3, "reps": "8-10", "restSeconds": 90 },
+        { "name": "Seated Shoulder Press", "sets": 3, "reps": "8-10", "restSeconds": 90 },
+        { "name": "Lateral Raises", "sets": 3, "reps": "12-15", "restSeconds": 60 },
+        { "name": "Cable Tricep Pushdown", "sets": 3, "reps": "10-12", "restSeconds": 60 }
+      ]
+    },
+    {
+      "dayIndex": 2,
+      "dayName": "Tuesday",
+      "focus": "Pull",
+      "title": "Back + Biceps",
+      "durationMinutes": 40,
+      "exercises": [
+        { "name": "Pull Ups", "sets": 4, "reps": "8-10", "restSeconds": 90 },
+        { "name": "Barbell Row", "sets": 4, "reps": "8-10", "restSeconds": 90 },
+        { "name": "Lat Pulldown", "sets": 3, "reps": "10-12", "restSeconds": 60 },
+        { "name": "Barbell Curl", "sets": 3, "reps": "10-12", "restSeconds": 60 },
+        { "name": "Hammer Curl", "sets": 3, "reps": "12", "restSeconds": 60 }
+      ]
+    },
+    {
+      "dayIndex": 3,
+      "dayName": "Wednesday",
+      "focus": "Legs",
+      "title": "Lower Body Strength",
+      "durationMinutes": 50,
+      "exercises": [
+        { "name": "Barbell Squat", "sets": 4, "reps": "5-8", "restSeconds": 120 },
+        { "name": "Romanian Deadlift", "sets": 3, "reps": "8-10", "restSeconds": 90 },
+        { "name": "Leg Press", "sets": 3, "reps": "10-12", "restSeconds": 90 },
+        { "name": "Hamstring Curl", "sets": 3, "reps": "12", "restSeconds": 60 },
+        { "name": "Standing Calf Raise", "sets": 4, "reps": "12-15", "restSeconds": 45 }
+      ]
+    },
+    {
+      "dayIndex": 4,
+      "dayName": "Thursday",
+      "focus": "Push",
+      "title": "Upper Push Hypertrophy",
+      "durationMinutes": 40,
+      "exercises": [
+        { "name": "Dumbbell Bench Press", "sets": 4, "reps": "8-12", "restSeconds": 90 },
+        { "name": "Cable Fly", "sets": 3, "reps": "12-15", "restSeconds": 60 },
+        { "name": "Arnold Press", "sets": 3, "reps": "10-12", "restSeconds": 60 },
+        { "name": "Lateral Raises", "sets": 3, "reps": "15", "restSeconds": 45 },
+        { "name": "Overhead Tricep Extension", "sets": 3, "reps": "12", "restSeconds": 60 }
+      ]
+    },
+    {
+      "dayIndex": 5,
+      "dayName": "Friday",
+      "focus": "Pull",
+      "title": "Back Thickness + Arms",
+      "durationMinutes": 40,
+      "exercises": [
+        { "name": "Deadlift", "sets": 4, "reps": "5", "restSeconds": 150 },
+        { "name": "Seated Cable Row", "sets": 3, "reps": "10", "restSeconds": 90 },
+        { "name": "Face Pull", "sets": 3, "reps": "12-15", "restSeconds": 60 },
+        { "name": "EZ Bar Curl", "sets": 3, "reps": "10-12", "restSeconds": 60 },
+        { "name": "Incline Dumbbell Curl", "sets": 3, "reps": "12", "restSeconds": 60 }
+      ]
+    },
+    {
+      "dayIndex": 6,
+      "dayName": "Saturday",
+      "focus": "Legs + Core",
+      "title": "Legs + Abs",
+      "durationMinutes": 45,
+      "exercises": [
+        { "name": "Front Squat", "sets": 4, "reps": "6-8", "restSeconds": 120 },
+        { "name": "Walking Lunges", "sets": 3, "reps": "12/leg", "restSeconds": 60 },
+        { "name": "Leg Extension", "sets": 3, "reps": "12-15", "restSeconds": 60 },
+        { "name": "Hanging Leg Raise", "sets": 3, "reps": "12", "restSeconds": 60 },
+        { "name": "Plank", "sets": 3, "reps": "45s", "restSeconds": 45 }
+      ]
+    }
+  ]
+}
