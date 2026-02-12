@@ -11,8 +11,8 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Event Dashboard",
-  description: "Dashboard for monitoring events",
+  title: "Fitness Dashboard",
+  description: "Daily workout program",
 };
 
 export default function RootLayout({
